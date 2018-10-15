@@ -1,1 +1,3 @@
 # WirelessSensorNetworks
+
+## Configuration
