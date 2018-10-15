@@ -42,3 +42,7 @@ Temperature = 50238 mC
 ADC1 = 2276 raw
 ADC3 = 272 raw
 -----------------------------------------
+
+
+# Hello world
+agazor@agazorPC ~/Desktop/contiki/examples/hello-world $ sudo make TARGET=zoul BOARD=remote-revb hello-world.upload savetarget
