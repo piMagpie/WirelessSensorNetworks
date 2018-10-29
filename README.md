@@ -57,3 +57,6 @@ The protocol stack or network stack is an implementation of a computer networkin
 Individual protocols within a suite are often designed with a single purpose in mind. This modularization makes design and evaluation easier. Because each protocol module usually communicates with two others, they are commonly imagined as layers in a stack of protocols. The lowest protocol always deals with low-level interaction with the communications hardware. Every higher layer adds more features and capability. User applications usually deal only with the topmost layers (see also OSI model).[2]
 
 https://en.wikipedia.org/wiki/Protocol_stack
+
+# several usbs
+sudo make TARGET=zoul BOARD=remote-revb udp-client-zoul.upload login MOTES=/dev/ttyUSB1
