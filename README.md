@@ -60,3 +60,6 @@ https://en.wikipedia.org/wiki/Protocol_stack
 
 # several usbs
 sudo make TARGET=zoul BOARD=remote-revb udp-client-zoul.upload login MOTES=/dev/ttyUSB1
+
+
+
