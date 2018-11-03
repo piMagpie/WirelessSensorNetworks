@@ -64,30 +64,3 @@ sudo make TARGET=zoul BOARD=remote-revb udp-client-zoul.upload login MOTES=/dev/
 # ZOLERTIA - COMMUNICATION COMPUTER & MOTE USING SERIAL COMMUNICATION
 
 agazor@agazorPC ~/Desktop/projectWSN/ContikiOS/tools $ sudo ./tunslip6 -s /dev/ttyUSB1 -t tun01 aaaa::1/64
-********SLIP started on ``/dev/ttyUSB1''
-opened tun device ``/dev/tun01''
-ifconfig tun01 inet `hostname` mtu 1500 up
-ifconfig tun01 add aaaa::1/64
-ifconfig tun01 add fe80::0:0:0:1/64
-ifconfig tun01
-
-tun01     Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
-          inet addr:127.0.1.1  P-t-P:127.0.1.1  Mask:255.255.255.255
-          inet6 addr: fe80::1/64 Scope:Link
-          inet6 addr: aaaa::1/64 Scope:Global
-          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1500  Metric:1
-          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
-          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
-          collisions:0 txqueuelen:500 
-          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
-
-*** Address:aaaa::1 => aaaa:0000:0000:0000
-Got configuration message of type P
-Setting prefix aaaa::
-Server IPv6 addresses:
- aaaa::212:4b00:14b5:edd4
- fe80::212:4b00:14b5:edd4
-
-
-
-
